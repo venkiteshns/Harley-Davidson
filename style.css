@@ -1,0 +1,464 @@
+:root{
+    --url:""
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.header-1 a{
+    margin: 0 27px 0 0;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.header-1 a:hover{
+    text-decoration: underline;
+}
+a:last-child{
+    margin-right: 120px;
+    display: flex;
+}
+.header-1{
+    color: white;
+    height: 50px;
+    width: 99vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-1 img{
+    margin-right: 13px;
+    height: 15px;
+    cursor: pointer;
+}
+.header-2{
+    height: 65px;
+    width: 99vw;
+    background-color: aqua;
+    display: flex;
+}
+.header-2 section{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+}
+.one{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.one p{
+    font-size: 15px;
+    white-space: nowrap;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+.p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 7px 0 13px;
+    
+}
+.p:hover{
+    color: white;
+    background-color: black;
+}
+.one img{
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 92px;
+    cursor: pointer;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    margin-top: -4px;
+    width: 176px;
+    margin-right: 25px;
+    height: 35px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.search i{
+    position: relative;
+    top: 9px;
+    left: 15px;
+}
+.search i:hover{
+    color: rgb(248, 152, 121);
+}
+.user{
+        margin: 0 117px 0 24px;
+}
+.user i{
+    cursor: pointer;
+}
+.user i:hover,.user p:hover{
+    color: rgb(248, 152, 121);
+}
+.user p{
+    margin: 0 0 0 -10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.main{
+    margin: 0;
+    padding: 0;
+}
+.body-1{
+    height: 85vh;
+    width: 1503px;
+    background-image: linear-gradient(to bottom right, rgb(23, 23, 23), rgba(0, 0, 0, 0)) , 
+    url("https://www.harley-davidson.com/ctfasset/5vy1mse9fkav/2YxV7AZcCYAARqMgvSa0QX/df3b97e5b4d27a67823f0a66b56c079b/2026-touring-group-beauty-shd-1.jpg");
+    background-size: cover; 
+    background-position: center;  
+    padding-top: 230px;
+    padding-left: 18px;
+}
+
+.slogan{
+    width: 500px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slogan h1{
+    font-weight: bold;
+    font-size:50px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    line-height: 50px;
+}
+.slogan p{
+    margin-top: -16px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.btn{
+    padding: 10px 0 10px 15px;
+    margin-top: 30px;
+    color: black;
+    width: 200px;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: rgb(81, 81, 81);
+    cursor: pointer;
+}
+.btn i{
+    margin-left: 22px;
+    font-size: 11px;
+}
+.body-2{
+    height: 85vh;
+    width: 99vw;
+    background-color: rgb(255, 255, 255);
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.heading h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+}
+.heading h2:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.products{
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: 12%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.products::-webkit-scrollbar{
+    height: 8px;
+    background-color: transparent;
+}
+.products::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.products::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
+}
+.bike{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.products img{
+    height: 190px;
+}
+.products h2{
+    margin: 0;
+}
+.colours{
+    display: flex;
+}
+.col{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+.one{
+    background-color: rgb(106, 106, 106);;
+}
+.two{
+    background-color: rgb(28, 28, 28);
+}
+.three{
+    background-color: rgb(56, 59, 94);
+}
+.four{
+    background-color: rgb(47, 71, 193);
+}
+.five{
+    background-color: rgb(213, 51, 26);
+}
+.view{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    margin-left: 45%;
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.view i {
+    margin-left: 15px;
+}
+.view:hover{
+    color: white;
+    background-color: black;
+}
+.body-3{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tools{
+    width: 97vw;
+    display: flex;
+    justify-content:space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tool{
+    height: 150px;
+    width: 480px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.tool i{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.tool h6{
+    margin-top: 19px;
+    font-size: 18px;
+}
+.body-4{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.motors{
+    display: flex;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.motors::-webkit-scrollbar{
+    height: 10px;
+    background-color: transparent;
+}
+.motors::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+.motors::-webkit-scrollbar-thumb:hover{
+    border-radius: 10px;
+    background-color: rgb(100, 100, 100);
+}
+.featured{
+    margin-right: 20px;
+}
+.featured img{
+    height: 450px;
+}
+.featured h5:hover{
+    cursor: pointer;
+    color: rgb(112, 112, 112);
+}
+.chapter{
+    margin-top: 80px;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+}
+.chapter h1{
+    font-weight: 800;
+    font-size: 41px;
+}
+.chapter h1:nth-child(2){
+    margin-top: 14px;
+}
+.chapter h4{
+    margin-top: 12px;
+}
+.watch-btn{
+    margin-left: 42%;
+    margin-top: 40px;
+    background-color: rgb(240, 240, 240);
+    height: 60px;
+    width :fit-content;
+    border-radius: 50px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.round{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(250 102 06);
+}
+.round i {
+    color: white;
+    margin: 12px 0 0 10px;
+}
+.watch-btn p{
+    margin-left: 8px;
+    font-weight: 700;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+}
+.body-5{
+    height: 600px;
+    width: 98%;
+    margin-top: 50px;
+    padding: 20px 10px 20px  20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+}
+.left{
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.left h1{
+    margin: 0;
+    font-weight: 550;
+    letter-spacing: -2px;
+}
+.left h6{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.left-btn{
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    width: fit-content;
+    margin-top: 30px;
+    border-radius: 7px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.left-btn:hover{
+    background-color: rgb(77, 77, 77);
+}
+.left-btn i{
+    margin-left: 30px;
+}
+.right img{
+    width: 800px;
+    height: 550px;
+}
+.body-6{
+    margin-top: 80px;
+    padding-left: 20px;
+    width: 97.3%;
+}
+.body-6 h1{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+.body-6 img{
+    width: 730px;
+    height:530px;
+}
+#img2{
+    margin-left: 30px;
+}
+.gear{
+    display: flex;
+}
+.gear figcaption{
+    margin-top: 15px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.gear i {
+    margin-left: 10px;
+}
+.footer{
+    margin-top: 60px;
+    width: 100%;
+    height: 900px;
+    background-color: black;
+}
+.footer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer-hr{
+    margin: 40px 80px 0 80px;
+    border-width: 1px;
+    border-color: #737373;
+}
+.brand{
+    padding: 40px 0 0 205px ;
+}
+.brand img{
+    width: 320px;
+}
