@@ -215,6 +215,7 @@ a:last-child{
 }
 .products img{
     height: 190px;
+    cursor: pointer;
 }
 .products h2{
     margin: 0;
@@ -241,6 +242,9 @@ a:last-child{
 }
 .five{
     background-color: rgb(213, 51, 26);
+}
+.one, .two, .three, .four, .five{
+    cursor: pointer;
 }
 .view{
     font-family: Arial, Helvetica, sans-serif;
@@ -399,6 +403,7 @@ a:last-child{
     border-radius: 7px;
     background-color: rgb(0, 0, 0);
     color: white;
+    cursor: pointer;
 }
 .left-btn:hover{
     background-color: rgb(77, 77, 77);
@@ -460,6 +465,7 @@ a:last-child{
 }
 .brand img{
     width: 320px;
+    cursor: pointer;
 }
 .footer-rows{
     padding: 30px 0 0 200px;
@@ -485,6 +491,7 @@ a:last-child{
     color: white;
     text-decoration: none;
     margin-bottom: 20px;
+    white-space: nowrap;
 }
 .f-row a:hover{
     text-decoration: underline;
@@ -501,6 +508,9 @@ a:last-child{
     padding-left: 190px;
     margin-top: 5px;
     margin-bottom: -37px;
+}
+.terms p {
+    cursor: pointer;
 }
 .terms a{
     color: white;
